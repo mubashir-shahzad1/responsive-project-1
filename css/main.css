@@ -261,3 +261,101 @@ textarea {
   }
 }
 
+/*--------aurthor----------*/
+header, footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow:row
+
+}
+header .full{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow:row
+
+}
+.divider{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+header nav{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: row wrap;
+}
+header nav ul{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+footer .icons{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+footer .social{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.hero{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+aside{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow:row
+
+}
+.features{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow:row
+
+}
+.f-items{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.reviews{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow:row
+
+}
+.mission{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow:row
+
+}
+.s-contact{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow:row
+
+}
+.faq{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.faq .full{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+flex-flow:row
+  
+}

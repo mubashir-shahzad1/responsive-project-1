@@ -393,7 +393,7 @@ footer .copyright {
   width: 45%;
 }
 
-.s-contact .full h2 {
+.s-contact .full h1 {
   width:80%;
 }
 
@@ -411,13 +411,65 @@ footer .copyright {
   flex-basis: 45%;
 }
 
-.faq h2 {
+.faq h1 {
   width: 100%;
 }
   }
   @media only screen and (min-width:1200px) {
     /*---------desktop----------*/
-  }
+    .full {
+      max-width: 960px;
+ }
+
+  /* Hero */
+ .new h1 {
+     width: 75%;
+ }
+
+ /* Aside */
+ aside .full {
+     justify-content:space-around;
+ }
+
+ aside .full .content,
+ aside .full .form {
+     width:35%;
+ }
+
+ /* Features */
+ .features h1 {
+     width: 91%;
+ }
+.features{
+  width: 92%;
+  justify-content: space-around;
+}
+ .features article {
+     flex-basis: 30%;
+ }
+
+ /* Reviews */ 
+ .reviews .full .div {
+     width: 50%;
+ }
+
+/* ==========================================================================
+About Page
+========================================================================== */
+ .mission h1,
+ .s-contact .full h1 {
+     width: 100%
+ }
+
+/* ==========================================================================
+FAQ Page
+========================================================================== */
+ .faq h1 {
+     width: 100%;
+ }
+
+}
+  
   @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
   }

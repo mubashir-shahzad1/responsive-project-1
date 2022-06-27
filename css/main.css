@@ -134,7 +134,11 @@ img {
 }
 
 .new {
-  background: url(../img/new.jpg) no-repeat center center/cover;
+  background: url(../img/new.jpg) no-repeat center center/cover #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /*--------aurthor----------*/
@@ -287,7 +291,7 @@ input[type=button] {
 }
 
 .features {
-  background: url(../img/revie.jpg) no-repeat center center/cover;
+  background: url(../img/review.jpg) no-repeat center center/cover;
   margin: 0px;
   width: 100%;
   display: flex;
@@ -337,6 +341,7 @@ footer p {
   width: 100%;
 }
 .mission {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -345,6 +350,7 @@ footer p {
 }
 
 .s-contact {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -353,6 +359,7 @@ footer p {
 }
 
 .faq {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;

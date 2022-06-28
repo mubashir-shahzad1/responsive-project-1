@@ -324,7 +324,11 @@ footer p {
   justify-content: center;
   align-items: center;
 }
-
+.features i{
+  font-size: 3.75em;
+          margin-bottom: 40px;
+  
+}
 .reviews {
   background-color: #2a423a;
   display: flex;
@@ -585,7 +589,9 @@ figure iframe{
   .mission-content p {
     width: 45%;
   }
-
+  map figure {
+    padding-bottom: 45.5%;
+  }
   .s-contact .full h1 {
     width: 80%;
   }
@@ -676,7 +682,9 @@ About Page
   .s-contact .full h1 {
     width: 100%
   }
-
+  map figure {
+    padding-bottom: 37.5%;
+  }
   /* ==========================================================================
 FAQ Page
 ========================================================================== */

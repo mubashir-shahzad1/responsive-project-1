@@ -232,9 +232,9 @@ footer .icons {
   align-items: center;
 }
 
-footer .icons p {
+footer .icons{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -297,7 +297,10 @@ input[type=button] {
   text-align: center;
   text-transform: uppercase;
 }
-
+input[type=button]:hover{
+  background-color: #305b4d;
+  cursor: pointer;
+}
 .features {
   background: url(../img/review.jpg) no-repeat center center/cover;
   margin: 0px;
